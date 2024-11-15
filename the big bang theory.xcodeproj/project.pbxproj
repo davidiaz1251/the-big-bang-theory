@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		630F26A22CE7BDCF008B56D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630F269C2CE7BDCF008B56D1 /* Preview Assets.xcassets */; };
+		630F26A32CE7BDCF008B56D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630F269E2CE7BDCF008B56D1 /* Assets.xcassets */; };
+		630F26A42CE7BDCF008B56D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F269F2CE7BDCF008B56D1 /* ContentView.swift */; };
+		630F26A52CE7BDCF008B56D1 /* the_big_bang_theoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F26A02CE7BDCF008B56D1 /* the_big_bang_theoryApp.swift */; };
+		630F26AC2CE7C595008B56D1 /* BigBang.json in Resources */ = {isa = PBXBuildFile; fileRef = 630F26AB2CE7C595008B56D1 /* BigBang.json */; };
+		630F26AE2CE7C5A5008B56D1 /* BigBangTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 630F26AD2CE7C5A5008B56D1 /* BigBangTest.json */; };
+		630F26B02CE7C63A008B56D1 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F26AF2CE7C63A008B56D1 /* RepositoryProtocol.swift */; };
+		630F26B22CE7CCB6008B56D1 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F26B12CE7CCB6008B56D1 /* Repository.swift */; };
+		630F26B42CE7CE29008B56D1 /* RepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F26B32CE7CE29008B56D1 /* RepositoryTest.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		630F268B2CE7BCE1008B56D1 /* the big bang theory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the big bang theory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		630F269C2CE7BDCF008B56D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		630F269E2CE7BDCF008B56D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		630F269F2CE7BDCF008B56D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		630F26A02CE7BDCF008B56D1 /* the_big_bang_theoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_big_bang_theoryApp.swift; sourceTree = "<group>"; };
+		630F26AB2CE7C595008B56D1 /* BigBang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BigBang.json; sourceTree = "<group>"; };
+		630F26AD2CE7C5A5008B56D1 /* BigBangTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BigBangTest.json; sourceTree = "<group>"; };
+		630F26AF2CE7C63A008B56D1 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		630F26B12CE7CCB6008B56D1 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		630F26B32CE7CE29008B56D1 /* RepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		630F268D2CE7BCE1008B56D1 /* the big bang theory */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "the big bang theory";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		630F26882CE7BCE1008B56D1 /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		630F26822CE7BCE1008B56D1 = {
 			isa = PBXGroup;
 			children = (
-				630F268D2CE7BCE1008B56D1 /* the big bang theory */,
+				630F26A12CE7BDCF008B56D1 /* the big bang theory */,
 				630F268C2CE7BCE1008B56D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,70 @@
 				630F268B2CE7BCE1008B56D1 /* the big bang theory.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		630F269D2CE7BDCF008B56D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				630F269C2CE7BDCF008B56D1 /* Preview Assets.xcassets */,
+				630F26AD2CE7C5A5008B56D1 /* BigBangTest.json */,
+				630F26B32CE7CE29008B56D1 /* RepositoryTest.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		630F26A12CE7BDCF008B56D1 /* the big bang theory */ = {
+			isa = PBXGroup;
+			children = (
+				630F269F2CE7BDCF008B56D1 /* ContentView.swift */,
+				630F26A02CE7BDCF008B56D1 /* the_big_bang_theoryApp.swift */,
+				630F26AA2CE7C54C008B56D1 /* Components */,
+				630F26A92CE7C534008B56D1 /* ViewModels */,
+				630F26A82CE7C516008B56D1 /* Model */,
+				630F26A72CE7C4E7008B56D1 /* Resources */,
+				630F26A62CE7C4B9008B56D1 /* Repository */,
+				630F269E2CE7BDCF008B56D1 /* Assets.xcassets */,
+				630F269D2CE7BDCF008B56D1 /* Preview Content */,
+			);
+			path = "the big bang theory";
+			sourceTree = "<group>";
+		};
+		630F26A62CE7C4B9008B56D1 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				630F26AF2CE7C63A008B56D1 /* RepositoryProtocol.swift */,
+				630F26B12CE7CCB6008B56D1 /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		630F26A72CE7C4E7008B56D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				630F26AB2CE7C595008B56D1 /* BigBang.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		630F26A82CE7C516008B56D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		630F26A92CE7C534008B56D1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		630F26AA2CE7C54C008B56D1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +136,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				630F268D2CE7BCE1008B56D1 /* the big bang theory */,
 			);
 			name = "the big bang theory";
 			packageProductDependencies = (
@@ -109,6 +183,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630F26A22CE7BDCF008B56D1 /* Preview Assets.xcassets in Resources */,
+				630F26AC2CE7C595008B56D1 /* BigBang.json in Resources */,
+				630F26AE2CE7C5A5008B56D1 /* BigBangTest.json in Resources */,
+				630F26A32CE7BDCF008B56D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630F26A42CE7BDCF008B56D1 /* ContentView.swift in Sources */,
+				630F26A52CE7BDCF008B56D1 /* the_big_bang_theoryApp.swift in Sources */,
+				630F26B02CE7C63A008B56D1 /* RepositoryProtocol.swift in Sources */,
+				630F26B42CE7CE29008B56D1 /* RepositoryTest.swift in Sources */,
+				630F26B22CE7CCB6008B56D1 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
