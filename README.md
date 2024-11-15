@@ -1,7 +1,7 @@
 # The Big Bang Theory - SwiftUI App
 
 <p align="center">
-  <img src="ruta-a-tu-imagen-portada" alt="The Big Bang Theory" width="600">
+  <img src="portada.png" alt="The Big Bang Theory" width="600">
 </p>
 
 ## Descripción
@@ -44,23 +44,23 @@ struct BigBang: Codable {
 - Navega por las temporadas y episodios fácilmente.
 - Marca/desmarca episodios como **vistos** o selecciona una temporada completa.
 
-<p align="center">
+<!--<p align="center">
   <img src="ruta-a-imagen-tabla" alt="Tabla de episodios" width="600">
-</p>
+</p>-->
 
 ### Episodios favoritos
 - Visualiza tus episodios favoritos en un **Grid interactivo**.
 
-<p align="center">
+<!--<p align="center">
   <img src="ruta-a-imagen-favoritos" alt="Grid de favoritos" width="600">
-</p>
+</p>-->
 
 ### Detalle de episodios
 - Accede a la descripción, valoración y notas personalizadas de cada episodio.
 
-<p align="center">
+<!--<p align="center">
   <img src="ruta-a-imagen-detalle" alt="Detalle del episodio" width="600">
-</p>
+</p>-->
 
 ---
 
@@ -100,7 +100,7 @@ Los recursos gráficos están organizados en dos carpetas:
 
 Este proyecto es solo para fines educativos y no tiene relación oficial con **The Big Bang Theory** ni con sus creadores. Todos los derechos pertenecen a sus respectivos propietarios.
 
-<p align="center">
+<!--<p align="center">
   <img src="ruta-a-imagen-final" alt="Logo decorativo" width="300">
-</p>
-"""
+</p>-->
+
