@@ -76,7 +76,7 @@ struct BigBang: Codable {
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/usuario/The-Big-Bang-Theory-App.git
+   git clone [https://github.com/usuario/The-Big-Bang-Theory-App.git](https://github.com/davidiaz1251/the-big-bang-theory.git)
    ```
 2. Abre el proyecto en Xcode:
    ```bash
