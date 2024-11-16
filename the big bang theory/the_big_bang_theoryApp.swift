@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct the_big_bang_theoryApp: App {
+    @StateObject private var bigbangVM = BigBangViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(bigbangVM)
         }
     }
 }

@@ -8,17 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var bigbangVM: BigBangViewModel
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            List{
+                ForEach(bigbangVM.filterSeasons){ season in
+                    NavigationLink(value: season) {
+                        Image("season\(season.number)")
+                            .resizable()
+                            .scaledToFit()
+                            .cornerRadius(12)
+                            .shadow(radius: 5)
+                    }
+                    
+                }
+                .listRowSeparator(.hidden)
+            }
+            .listStyle(.plain)
+            .navigationTitle("Big Bang Theory")
+            .navigationDestination(for: Season.self) { season in
+                Text("\(season.number)")
+            }
+            .searchable(text: $bigbangVM.search, prompt: "Buscar Temporada")
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView.preview
 }
